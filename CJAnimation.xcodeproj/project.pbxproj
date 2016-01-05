@@ -13,6 +13,7 @@
 		B32B77261C3B66CC0065FAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32B77241C3B66CC0065FAC5 /* Main.storyboard */; };
 		B32B77281C3B66CC0065FAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32B77271C3B66CC0065FAC5 /* Assets.xcassets */; };
 		B32B772B1C3B66CC0065FAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32B77291C3B66CC0065FAC5 /* LaunchScreen.storyboard */; };
+		B3CE33A81C3B9CD10081F9C0 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CE33A71C3B9CD10081F9C0 /* AnimationViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B32B77271C3B66CC0065FAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B32B772A1C3B66CC0065FAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B32B772C1C3B66CC0065FAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CE33A61C3B9CD10081F9C0 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		B3CE33A71C3B9CD10081F9C0 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B32B771F1C3B66CC0065FAC5 /* AppDelegate.m */,
 				B32B77211C3B66CC0065FAC5 /* ViewController.h */,
 				B32B77221C3B66CC0065FAC5 /* ViewController.m */,
+				B3CE33A61C3B9CD10081F9C0 /* AnimationViewController.h */,
+				B3CE33A71C3B9CD10081F9C0 /* AnimationViewController.m */,
 				B32B77241C3B66CC0065FAC5 /* Main.storyboard */,
 				B32B77271C3B66CC0065FAC5 /* Assets.xcassets */,
 				B32B77291C3B66CC0065FAC5 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				B32B77231C3B66CC0065FAC5 /* ViewController.m in Sources */,
 				B32B77201C3B66CC0065FAC5 /* AppDelegate.m in Sources */,
 				B32B771D1C3B66CC0065FAC5 /* main.m in Sources */,
+				B3CE33A81C3B9CD10081F9C0 /* AnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				B32B77311C3B66CC0065FAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
